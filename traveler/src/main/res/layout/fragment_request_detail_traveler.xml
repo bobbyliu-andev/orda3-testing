@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <faith.changliu.orda3testing.base.widgets.DisplayTextView
+            android:id="@+id/mCusTvTitle"
+            app:hint="Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <faith.changliu.orda3testing.base.widgets.DisplayTextView
+            android:id="@+id/mCusTvDeadline"
+            app:hint="Deadline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <faith.changliu.orda3testing.base.widgets.DisplayTextView
+            android:id="@+id/mCusTvWeight"
+            app:hint="Weight/lb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <faith.changliu.orda3testing.base.widgets.DisplayTextView
+            android:id="@+id/mCusTVCityCountry"
+            app:hint="City, Country"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <faith.changliu.orda3testing.base.widgets.DisplayTextView
+            android:id="@+id/mCusTvCompensation"
+            app:hint="Compensation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <faith.changliu.orda3testing.base.widgets.DisplayTextView
+            android:id="@+id/mCusTvDescription"
+            app:hint="Description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/mBtnCancel"
+            android:text="@string/cancel"
+            style="@style/Btn"
+            android:layout_marginTop="@dimen/space_small"
+            android:textColor="@android:color/holo_red_light"
+            android:layout_width="match_parent" />
+
+        <Button
+            android:id="@+id/mBtnEmailAgent"
+            android:text="Email Agent"
+            style="@style/Btn"
+            android:layout_marginTop="@dimen/space_small"
+            android:layout_width="match_parent" />
+
+        <Button
+            android:id="@+id/mBtnApply"
+            android:text="Apply"
+            style="@style/Btn"
+            android:layout_marginTop="@dimen/space_small"
+            android:layout_width="match_parent" />
+
+    </LinearLayout>
+
+</ScrollView>

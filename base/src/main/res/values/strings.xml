@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">base</string>
+    <string name="welcome">WELCOME</string>
+    <string name="logo_image">logo image</string>
+    <string name="no_network">No network</string>
+    <string name="confirm">CONFIRM</string>
+    <string name="loading">LOADING…</string>
+    <string name="sign_in">Sign In</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="forget_password">Forget Password</string>
+    <string name="register_agent">Become an agent today</string>
+    <string name="register_traveler">Register</string>
+    <string name="confirm_to_delete">Confirm to delete</string>
+    <string name="submit">Submit</string>
+    <string name="name">Name</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+    <string name="profile_image">Profile image</string>
+    <string name="cancel">Cancel</string>
+    <string name="comment">Comment</string>
+</resources>

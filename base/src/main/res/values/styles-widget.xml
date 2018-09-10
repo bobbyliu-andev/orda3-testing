@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- TextView -->
+    <style name="Text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="Text.Title">
+        <item name="android:gravity">center</item>
+        <item name="android:minHeight">@dimen/height_line_large</item>
+        <item name="android:textSize">@dimen/text_size_large</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="Text.Title.Sub">
+        <item name="android:textSize">@dimen/text_size_medium</item>
+    </style>
+
+
+    <!-- EditText -->
+    <style name="Et">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:ems">10</item>
+        <item name="android:maxLength">200</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:layout_marginTop">@dimen/space_small</item>
+        <item name="android:layout_marginEnd">@dimen/space_small</item>
+        <item name="android:layout_marginStart">@dimen/space_small</item>
+        <item name="android:background">@drawable/bg_et</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="Et.WithIcon">
+        <item name="android:textSize">@dimen/text_size_small</item>
+        <item name="android:drawablePadding">@dimen/space_small</item>
+    </style>
+
+    <style name="Input">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:drawablePadding">@dimen/space_small</item>
+        <item name="android:padding">@dimen/space_small</item>
+        <item name="android:layout_marginTop">@dimen/space_small</item>
+        <item name="android:textSize">@dimen/text_size_small</item>
+    </style>
+
+    <style name="Hint">
+        <item name="android:textSize">@dimen/text_size_large</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Button -->
+    <style name="Btn">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:background">@color/black_overlay</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/text_size_medium</item>
+    </style>
+
+</resources>

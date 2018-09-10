@@ -1,0 +1,16 @@
+<resources>
+    <declare-styleable name="DisplayTextView">
+        <attr name="hint" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="CusEditText">
+        <attr name="cus_et_hint" format="string" />
+        <attr name="cus_et_inputType" format="integer" />
+        <attr name="cus_et_maxLength" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="CusRatingBar">
+        <attr name="isClickable" format="boolean" />
+    </declare-styleable>
+
+</resources>

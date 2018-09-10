@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Orda Agent</string>
+    <string name="title_shipping">Shipping</string>
+    <string name="title_requests">Requests</string>
+    <string name="title_account">Account</string>
+    <string name="navigation_drawer_open">Open drawer</string>
+    <string name="navigation_drawer_close">Close drawer</string>
+</resources>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Orda Traveler</string>
+    <string name="title_activity_traveler_main">Traveler Orda</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string-array name="request_category">
+        <item>All</item>
+        <item>Assigned</item>
+    </string-array>
+</resources>

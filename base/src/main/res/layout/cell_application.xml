@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:baselineAligned="false"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_marginBottom="@dimen/space_small"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/mCellView"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:padding="12dp"
+        android:background="@drawable/bg_cell"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imv_icon"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:contentDescription="@string/profile_image"
+            android:padding="@dimen/space_small"
+            android:src="@drawable/ic_account"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/mTvName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:textStyle="bold"
+            android:textSize="@dimen/text_size_medium"
+            app:layout_constraintStart_toEndOf="@+id/imv_icon"
+            app:layout_constraintTop_toTopOf="@+id/imv_icon" />
+
+        <TextView
+            android:id="@+id/mTvRatingLabel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:ellipsize="end"
+            android:text="Rating:"
+            android:textStyle="bold"
+            android:textSize="@dimen/text_size_small"
+            app:layout_constraintStart_toEndOf="@+id/imv_icon"
+            app:layout_constraintTop_toBottomOf="@+id/mTvName" />
+
+        <TextView
+            android:id="@+id/mTvRating"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:ellipsize="end"
+            android:textSize="@dimen/text_size_small"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/mTvRatingLabel"
+            app:layout_constraintTop_toBottomOf="@+id/mTvName" />
+    </android.support.constraint.ConstraintLayout>
+
+    <LinearLayout
+        android:id="@+id/mLayoutReveal"
+        android:layout_width="wrap_content"
+        android:visibility="gone"
+        android:orientation="horizontal"
+        android:layout_gravity="center_vertical"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/mBtnEmailTraveler"
+            android:text="Email"
+            android:textColor="@color/white_overlay"
+            android:backgroundTint="@android:color/holo_red_light"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/mBtnAssign"
+            android:text="ASSIGN"
+            android:textColor="@color/white_overlay"
+            android:backgroundTint="@color/colorPrimaryMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>
