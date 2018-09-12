@@ -11,6 +11,13 @@ Orlando Yunda is an app designed to facilitate the workflow for Yunda Express ag
 * For physical device, update Google Play Services to the most recent version if login is taking longer than 1 minute
 * For emulators that do not support in device Google Play Store access, go to SDK tool in Android Studio and update Google Play Services in there if the app takes too long while logging in or does not login.
 
+## Login Credentials
+For Agent version, newly signup account is not activated right away. Test users may use the following credential to test out the functions:
+```
+Email: test1@g.com
+Password: 111111
+```
+
 ## Features
 * Register by invitation
 * Barcode scan
